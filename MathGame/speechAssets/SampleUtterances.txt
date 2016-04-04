@@ -1,3 +1,11 @@
+NameIntent my name is {FirstName}
+NameIntent I am {FirstName}
+NameIntent I'm {FirstName}
+
+GradeIntent my grade is {SchoolGrade}
+GradeIntent I am in {SchoolGrade}
+GradeIntent I'm in {SchoolGrade}
+
 AnswerIntent the answer is {Answer}
 AnswerIntent my answer is {Answer}
 AnswerIntent is it {Answer}

@@ -1,0 +1,36 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "session1234",
+    "attributes":  {
+        "questions":["6 + 5", "5 + 45", "5 + 44" ],
+        "answers":["11", "50", "49" ],
+        "answerText":"11",
+        "currentQuestionIndex":"1",
+        "speechOutput": "ag;agk agkag",
+        "repromptText": "g lag aglj",
+        "score": "10"
+
+    },
+    "user": {
+      "userId": null
+    },
+    "application": {
+      "applicationId": "amzn1.echo-sdk-ams.app.[unique-value-here]"
+    }
+  },
+  "version": "1.0",
+  "request": {
+    "intent": {
+      "slots": {
+        "Answer": {
+          "name": "Answer",
+          "value": "10"
+        }
+      },
+      "name": "AnswerIntent"
+    },
+    "type": "IntentRequest",
+    "requestId": "request5678"
+  }
+}
